@@ -12,19 +12,16 @@ def primeTest(num):
 		x += 2 #ignore even numbers 
 	return True
 
-x = 17
+x = 17 #start on a known prime
+total = 0
 while (True):
 	if (x > 2000000):
 		break
 	else:
 		if (primeTest(x) == True):
 			primes.append(x)
+			total += int(prime)
 		x += 2
-
-total = 0
-
-for prime in primes:
-	total += int(prime)
 
 print(total)
 
