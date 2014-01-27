@@ -5,4 +5,4 @@ for num in range(1, 1000000000):
 		break
 	y.append(x)
 
-print(len(y) + 1) 
+print(len(y) + 1)
